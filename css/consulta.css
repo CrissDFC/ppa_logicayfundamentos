@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arimo';
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+#tabla table{
+    width: 100%;
+    text-align: center;
+}
+
+.titlesTable{
+    width: 170px;
+}
+
+#buttonsTable{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 768px){
+    #header{
+        text-align: center;
+    }
+    
+    .col a{
+        margin: 0.2rem;
+    }
+
+    #tabla{
+        margin: 0.2rem;
+    }
+    
+    #tabla table{
+        width: 10px;
+    }
+}

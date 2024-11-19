@@ -1,0 +1,6 @@
+.idea
+.well-known
+.wp-cli
+.ftpquota
+.htaccess
+.DS_Store
